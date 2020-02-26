@@ -95,6 +95,10 @@ class Testthing {
 		list.add(20);
 		test = list.toString();
 		assertEquals("20 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10", test);
+		
+		list.append(21);
+		test = list.toString();
+		assertEquals("20 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 21", test);
 	}
 	
 	@Test
