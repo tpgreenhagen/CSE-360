@@ -100,7 +100,7 @@ public class SimpleList //This class contains the 10 integer list and its operat
 	/**
 	 * first method
 	 * Returns the first element of the list
-	 * @return	returns the first integer or -1 if there is no value
+	 * @return	returns the first integer or -1 if there is no value in first entry
 	 */
 	public int first() {
 		if(count == 0){
