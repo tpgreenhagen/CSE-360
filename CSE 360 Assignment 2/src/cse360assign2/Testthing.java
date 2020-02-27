@@ -22,6 +22,10 @@ class Testthing {
 		list.append(10);
 		int first = list.first();
 		assertEquals(first,10);
+		
+		first = list.last();
+		assertEquals(first,10);
+		
 		String test = list.toString();
 		assertEquals("10", test);
 		list.append(9);
@@ -55,9 +59,15 @@ class Testthing {
 		test = list.toString();
 		assertEquals("7 8 9 10 10 9 8 7 6 5 4 3 2 1", test);
 		
+		int last = list.last();
+		assertEquals(last, 1);
+		
 		list.append(6);
 		test = list.toString();
 		assertEquals("7 8 9 10 10 9 8 7 6 5 4 3 2 1 6", test);
+		
+		last = list.last();
+		assertEquals(last, 6);
 		
 		
 		list.remove(7);

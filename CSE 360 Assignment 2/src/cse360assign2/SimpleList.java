@@ -89,6 +89,10 @@ public class SimpleList //This class contains the 10 integer list and its operat
 		}
 		if(count < size * 0.75) {
 			size *= 0.75;
+			
+			if(size < 1)
+				size = 1;
+			
 			int[] temp = new int[size];
 			for(int i = 0; i < count; i++) {
 				temp[i] = list[i];
@@ -107,6 +111,19 @@ public class SimpleList //This class contains the 10 integer list and its operat
 			return -1;
 		}
 		return list[0];
+		
+	}
+	
+	/**
+	 * last method
+	 * Returns the last element of the list
+	 * @return	returns the last integer or -1 if there is no values
+	 */
+	public int last() {
+		if(count == 0){
+			return -1;
+		}
+		return list[count - 1];
 		
 	}
 	
