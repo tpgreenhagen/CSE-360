@@ -1,12 +1,12 @@
 /**
  * Tanner Greenhagen
  * CSE 360 Wednesday
- * Assignment 1
+ * Assignment 2
  * Class ID: 426
  * This program creates a list that can hold numbers. 
  * Numbers can be added to the front or back, removed, searched for in the list.
- * The first number can be returned, the number of elements in the list can be returned
- * and the size of the list can be returned.
+ * The first number can be returned, the number of elements in the list can be returned,
+ * the last element in the list can be returned, and the size of the list can be returned.
  */
 package cse360assign2;
 

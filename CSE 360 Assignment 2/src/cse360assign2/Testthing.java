@@ -1,10 +1,10 @@
 /**
  * Tanner Greenhagen
  * CSE 360 Wednesday
- * Assignment 1
+ * Assignment 2
  * Class ID: 426
  * This is a class that tests the SimpleList class especially the first,
- *  append and size methods which were added.
+ *  append, last and size methods which were added.
  */
 
 package cse360assign2;
